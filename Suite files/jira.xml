@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Jira API Suite">
+	<test name="Jira API testing">
+		<classes>
+			<class name="RestAssured.Create_Issue_Jira" />
+			<class name="RestAssured.Add_Attachement_Jira" />
+			<class name="RestAssured.Post_Message_Slack" />
+		</classes>
+	</test>
+</suite>
+

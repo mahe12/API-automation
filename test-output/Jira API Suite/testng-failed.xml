@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Jira API Suite]">
+  <test name="Jira API testing(failed)">
+    <classes>
+      <class name="RestAssured.Post_Message_Slack">
+        <methods>
+          <include name="sendMessage" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- RestAssured.Post_Message_Slack -->
+    </classes>
+  </test> <!-- Jira API testing(failed) -->
+</suite> <!-- Failed suite [Jira API Suite] -->

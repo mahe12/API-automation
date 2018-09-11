@@ -1,0 +1,23 @@
+{
+"fields":
+{
+	"project":
+	{
+		"key": "QS"
+	},
+	"summary": "Automatic creation through postman again",
+	"description": "The steps to reproduce are:\r\n1.Do something.",
+	"priority":
+	{
+        "id": "3"
+    },
+    "issuetype": 
+    {
+    	"name": "Task"
+    },
+    "assignee": 
+    {
+    "name":"admin"
+    }
+}
+}
